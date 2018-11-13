@@ -6,9 +6,12 @@ import json
 
 # test_dict = {'bigberg': [7600, {1: [['iPhone', 6300], ['Bike', 800], ['shirt', 300]]}]}
 
-config_dict={"server":"0.0.0.0","server_port":1090,"local_address":"127.0.0.1",
+config_dict={"server":"54.157.202.65","server_port":8388,"local_address":"127.0.0.1",
              "local_port":1080, "password":"90970306Cyq", "timeout":300, "method":"aes-256-cfb",
-             "fast_open":"false", "workers": 1}
+             "fast_open":"false"}
+
+# config_dict={"server":"54.157.202.65","server_port":1090,"local_address":"127.0.0.1",
+#              "local_port":1080, "password":"90970306Cyq", "timeout":300, "method":"aes-256-cfb"}
 
 
 print(config_dict)
